@@ -1,12 +1,4 @@
 /* Amanda Zong, 2018
-Code for twinking stars background was modified from Script Tutorials.
-All other code was self-written.
-============================================================================================== 
-This copyright notice must be kept untouched in the stylesheet at all times.
-The original version of this stylesheet and the associated (x)html 
-is available at 
-Copyright (c) Script Tutorials. All rights reserved.
-This stylesheet and the associated (x)html may be modified in any way to fit your requirements.
 ================================================================================================= */
 * {
     margin: 0;
@@ -14,8 +6,8 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
 }
 
 header {
-    background-color:rgba(33, 33, 33, 0.9);
-    color:#ffffff;
+    background-color:#000000;
+    color:#FFFFFF;
     display:block;
     font: 14px/1.3 Arial,sans-serif;
     height:50px;
@@ -26,23 +18,6 @@ header {
 header a, a:visited {
     text-decoration:none;
     color:#fcfcfc;
-}
-
-@keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
-@-webkit-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
-@-moz-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
-@-ms-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
 }
 
 .container
