@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html> 
-  <head>
-    <link rel="stylesheet" href="style.css">
-    <script src=/script.js async></script>
-
-  </head>
-
-  <body onclick="newStyle();">
-    
-    <p class="centered" id="logo">Codecademy</p>
-	  
-	</body>
-</html>
-
 <!--
 <!DOCTYPE html>
 <html> 
@@ -43,31 +28,8 @@
    <div id="container">
       <h1 class ="billboard"><span style="color:#4FD5D6"> A</span>manda <span style="color:#4FD5D6"> Z</span>ong</h1>
       <h2 class ="aboutme"> Student at Columbia University. </h2>
-      <div class="stars"></div>
-      <div class="twinkling"></div>
 
       <img src="images/propic.jpg" class = "propic">
-
-      <div id="msg_1" class = "msg_1"> <b> Hobbies: </b> Reading, writing, Codeforces, playing violin, trying new food </br> </div>
-      <div id="msg_2" class = "msg_2"> <b> Last book read: </b> Surely You're Joking, Mr. Feynman! </br> </div>
-      <div id="msg_3" class = "msg_3"> <b> Favorite NYC restaurants: </b> Thai Market (Upper W Side), Chennai Garden (Flatiron) </br> </div>      
-
-      <form>
-      <input class ="crescent" type = "button" value = "More About Me" onmouseover = "revealSlowly()"/>
-      <script type = "text/javascript">
-        function revealSlowly()
-        {
-          var theDelay = 100;
-          showText('msg_1');
-          setTimeout("showText('msg_2')", theDelay);
-          setTimeout("showText('msg_3')", theDelay*2.5);
-        }
-        function showText(element)
-        {
-          document.getElementById(element).style.visibility = 'visible';
-        }
-      </script>
-      </form>
 
      </div>
    </div>
