@@ -8,11 +8,13 @@
 span{
     color: #DE4D2E;
     font-size: 25px;
+    text-align: center;
 }
 
 p{
     color: #2ECEDE;
     font-size: 25px;
+    text-align: center;
 }
 
 .container
