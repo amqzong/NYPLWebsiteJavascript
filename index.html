@@ -23,6 +23,15 @@
 
 <!DOCTYPE html>
 <html>
+	
+<style>
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+</style>
 
    <head>
       <title>Amanda Zong </title>
@@ -42,14 +51,16 @@
 <p>
 <button onclick="myMove()">Click Me</button> 
 </p>
-	
+
+<div id ="myAnimation"></div>
+
 <script>
 function myMove() {
-  var elem = document.getElementById("propic");   
+  var elem = document.getElementById("myAnimation");   
   var pos = 0;
   var id = setInterval(frame, 10);
   function frame() {
-    if (pos == 1000) {
+    if (pos == 350) {
       clearInterval(id);
     } else {
       pos++; 
